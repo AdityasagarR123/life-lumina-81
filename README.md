@@ -1,56 +1,45 @@
-# Welcome to your Lovable project
+OncoR AI – AI-Powered Cancer Care Assistant
 
-## Project info
+OncoR AI is a next-generation oncology intelligence platform that helps patients and doctors make informed decisions in the fight against cancer. By combining medical imaging, genomics, and clinical data with advanced AI models, OncoR AI provides early detection, personalized risk assessment, precision treatment recommendations, and secure doctor–patient collaboration.
 
-**URL**: https://lovable.dev/projects/9db720c6-7330-4ed8-8cc6-70b06a3ccefe
+🌟 Features
+🔍 Early Detection with Explainable AI
 
-## How can I edit this code?
+Analyze CT, MRI, and pathology scans.
 
-There are several ways of editing your application.
+Detect tumors at the earliest stages.
 
-**Use Lovable**
+Visual heatmaps explain predictions for transparency.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9db720c6-7330-4ed8-8cc6-70b06a3ccefe) and start prompting.
+🎯 Personalized Risk & Precision Treatment
 
-Changes made via Lovable will be committed automatically to this repo.
+Generate individualized cancer risk profiles.
 
-**Use your preferred IDE**
+Recommend optimized treatment plans (chemo, immunotherapy, surgery).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Include probabilities of success and potential side effects.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🤝 Collaboration & 24/7 Cancer Support
 
-Follow these steps:
+Securely share reports between patients and doctors.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Doctors can annotate and validate findings.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Oncology-trained AI chatbot for research-backed patient guidance.
 
-# Step 3: Install the necessary dependencies.
-npm i
+🛠️ Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Frontend: React.js, Tailwind CSS, Chart.js / Plotly
 
-**Edit a file directly in GitHub**
+Backend: Node.js + Express
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Database: MongoDB
 
-**Use GitHub Codespaces**
+AI/ML Layer: Python (TensorFlow / PyTorch / Scikit-learn) served via Flask/FastAPI
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Integration: REST APIs between Node backend and ML models
 
-## What technologies are used for this project?
+Visualizations: Heatmaps (Kepler.gl / D3.js)
 
 This project is built with:
 
@@ -60,14 +49,3 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9db720c6-7330-4ed8-8cc6-70b06a3ccefe) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
